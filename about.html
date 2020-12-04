@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Principal</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="principal.css" />
+    <link rel="stylesheet" href="Bootstrap - jquary - popper/bootstrap.css" /> <!-- Ambos as tags links usadas para linkar uma página ao seu código de estilo .css. /-->
+</head>
+<body>
+    <header>
+        <h1><a href="Principal.html"> <!-- Nome dos alunos: Renan, Vinícius, Daniele, Juliana e Felipe /-->
+            <img src="Imagens/Logo1.png" height="110" width="280" id="logo" title="Herança Sustentável" alt="HS_Logo">
+        </a></h1>
+        <nav id="topo">
+            <ul> <!-- Lista principal dos menus de todas as abas do site /-->
+                <li><a href="principal.html"><input type="button" value="Principal"></a></li>
+                <li><a href="About.html"><input type="button" value="Sobre"></a></li>
+                <li><a href="HelpUs.html"><input type="button" value="Junte-se"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="scrollspy" class="row mb-5">
+                    <div class="col-3">
+
+                        <nav id="navertical" class="navbar">
+
+                            <nav id="Navback" class="nav nav-pills flex-column"> <!-- Navbar do scrollspy-->
+
+                                <a class="nav-link" href="#Item1">Coleta e Reiclagem</a>
+
+                                <nav class="nav nav-pills flex-colum">
+    
+                                    <a class="nav-link ml-4" href="#Item1-1">Como separar o lixo?</a>
+    
+                                </nav>
+                                
+                                <nav class="nav nav-pills flex-colum">
+                        
+                                    <a class="nav-link ml-4" href="#Item1-2">Como reciclar?</a>
+        
+                                </nav>
+    
+                                <a class="nav-link my-2" href="#Item2">Cultivo de plantio</a>
+    
+                                <a class="nav-link" href="#Item3">Economia de água</a>
+
+                                <nav class="nav nav-pills flex-colum">
+                                    
+                                </nav>
+                                
+                                <nav class="nav nav-pills flex-colum">
+                                                                    
+                                </nav>
+
+                                <a class="nav-link" href="#Item4">Economia de água</a>
+
+                                <nav class="nav nav-pills flex-colum">
+    
+                                        
+                                </nav>
+                                
+                                <nav class="nav nav-pills flex-colum"></nav>
+                        
+                                            
+                                </nav>
+
+                            </nav>
+
+                        </nav>
+
+                    </div>
+
+                    <div id="testando" class="col-9 mt-2"> <!-- Usado para criar o scrollspy do conteúdo Sobre-->
+
+                        <div data-spy="" data-target="#navertical" data-offset="0" class="backgroundcontent">
+
+                            <h3 id="Item1" class="my-3 ml-3 navtitle">1 - Coleta seletiva e reciclagem</h3>
+
+                            <p id="Item1-1" class="ml-3 mb-4 navtext">Olá, crianças, vamos ensinar como se faz a coleta seletiva de uma maneira pratica e divertida.</p>
+                            <ol class="ml-2 navlist">
+                                <li>Primeiro passo é como selecionar o lixo e onde deve ser depositado. Os resíduos podem ser separados em 5 grupos: o de papel, vidro, plástico, metal e aço e restos de comida, e outros mais orientados ao óleo, brinquedos, pilhas, etc. Existem cinco tipos de lixeiras onde devemos jogar o lixo:</li>
+                                <li>1 – Lixeira azul: destinado para papel e papelão.</li>
+                                <li>2 – Lixeira verde: destinado para vidros, cristal.</li>
+                                <li>3 – Lixeira vermelha: para as embalagens de plástico.</li>
+                                <li>4 – Lixeira amarela: para as embalagens de metal e aço.</li>
+                                <li>5 – Lixeira marrom: para os restos de comida, ou seja, para a matéria orgânica e também para outro tipo de restos como as plantas, telas, terra, cinzas, pontas de cigarro, etc.</li>
+                            </ol>
+
+                            <h5 id="Item1-2" class="my-3 ml-3 navsubtitle">1-2 - Agora que aprendemos a seperar o lixo, como devemos reciclar?</h5>
+                            <p class="ml-3 mb-4 navtext">Agora que aprendemos a separar o lixo, vamos pensar na reciclagem “Ações que vão nos ajudar no dia a dia”:</p>
+                            <ul class="ml-2 navlist">
+                                <li>1 – Comprar bebidas em garrafas recicláveis.</li>
+                                <li>2 – Evitar comprar produtos com muita embalagem.</li>
+                                <li>3 – Reciclar os papéis que utilizamos em casa.</li>
+                                <li>4 – Usar papéis reciclados.</li>
+                                <li>5 – Compartilhar essas experiências com amigos e familiares.</li>
+                            </ul>
+
+                            <h3 id="Item2" class="my-3 ml-3 navtitle">2 - Cultivo de Plantio</h3>
+                            <p class="ml-3 mb-4 navtext">Olá, crianças, vamos conversar sobre a importância do cultivo, atualmente na nossa sociedade moderna temos poucas árvores, pouco verde, cada vez mais percebemos estão acabando com plantas e flores. Por esses motivos explicaremos ideias que podem fazer toda a diferença no dia a dia.</p>
+                                <li>1 – prepare o vaso ou canteiro com ferramentas para crianças.</li>
+                                <li>2 – Semeadura e acompanhe o crescimento das plantas.</li>
+                                <li>3 – Regue as plantas todos os dias.</li>
+                                <li>4 – Sempre limpe os vasos.</li>
+                                <li>5 – Se possível plante uma arvore e de um nome.</li>
+                            
+                            <h3 id="Item3" class="my-3 ml-3 navtitle">3 - Economia de Água</h3>
+                            
+                            <p class="ml-3 mb-4 navtext">Olá, crianças, vamos falar sobre a importância da agua. Você sabia que nosso planeta e composto por 80% agua salgada os outros 20% são os continentes? Infelizmente essa agua ela não é boa para nos seres humanos, nos precisamos de agua doce (agua potável). Atualmente temos 25% de agua doce no mundo é muito pouco para todo o planeta, por isso que é importante a gente economizar agua. Como podemos economizar agua?</p>
+                            <ol id="#Item3-1" class="ml-2 navlist">
+                                <li>1 – Feche bem a torneira</li>
+                                <li>2 – Lave bem as mãos e depois enxague.</li>
+                                <li>3 – Dar descarga somente 1 vez </li>
+                                <li>3 – Se a torneira estiver pingando coloque pote em baixo.</li>
+                            </ol>
+
+                            <h3 id="Item4" class="my-3 ml-3 navtitle">4 - Economia de energia</h3>
+                            <p id="Item4-1" class="ml-3 mb-4 navtext">Ola, crianças, vamos falar sobre a importância da economia de energia. Recentemente temos muitos estudos sobre maneiras de ter energia sustentável, com avanço da tecnologia passamos a ter energias renováveis. Energia eólica, placa de energia solar, energia que vem das hidroelétricas.</p>
+                                <li>1 – Apague as luzes durante o dia.</li>
+                                <li>2 – Use lâmpadas de led.</li>
+                                <li>3 – Evite deixar a porta aberta da geladeira.</li>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer"> <!-- Footer usada para deixar links de páginas e para contato via e-mail /-->
+            <img src="Imagens/Logo4.png" height="100" width="260" id="logofooter" title="Página Principal" alt="HS_Logo_Footer">
+            <br>
+            <a href="#logo">Topo</a>
+            <a href="About.html">Sobre</a>
+            <a href="HelpUs.html">Ajude-nos</a>
+            <a href="mailto:herancasus@outlook.com">Contato</a>
+        </div>
+    </footer>
+    <script src="Bootstrap - jquary - popper/bootstrap.js"></script>
+    <script src="Bootstrap - jquary - popper/popper.js"></script>
+    <script src="Bootstrap - jquary - popper/jquery.js"></script> <!-- Scripts usados. /-->
+</body>
+</html>
