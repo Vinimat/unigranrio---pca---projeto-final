@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página Principal</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="Bootstrap - jquary - popper/bootstrap.css" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+<body>
+    <header>
+        <h1><a href="Principal.html"> <!-- Nome dos alunos: Renan, Vinícius, Daniele, Juliana e Felipe /-->
+            <img src="Imagens/Logo2.png" height="110" width="280" id="logo" title="Herança Sustentável" alt="HS_Logo">
+        </a></h1>
+        <nav id="topo">
+            <ul> <!-- Lista principal dos menus de todas as abas do site /-->
+                <li><a href="principal.html"><input type="button" value="Principal"></a></li>
+                <li><a href="About.html"><input type="button" value="Sobre"></a></li>
+                <li><a href="HelpUs.html"><input type="button" value="Junte-se"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div id="scrollspy" class="row mb-5">
+                    <div class="col-3">
+
+                        <nav id="navertical" class="navbar">
+
+                            <nav id="Navback" class="nav nav-pills flex-column"> <!-- Navbar do scrollspy-->
+
+                                <a class="nav-link" href="#Item1">Quem somos?</a>
+
+                                <nav class="nav nav-pills flex-colum">
+    
+                                    <a class="nav-link ml-4" href="#Item1-1">Objetivos</a>
+    
+                                </nav>
+                                
+                                <nav class="nav nav-pills flex-colum">
+                        
+                                    <a class="nav-link ml-4" href="#Item1-2">Nossa escolha</a>
+        
+                                </nav>
+    
+                                <a class="nav-link my-2" href="#Item2">Participantes</a>
+    
+                                <a class="nav-link" href="#Item3">Unir-se</a>
+
+                            </nav>
+
+                        </nav>
+
+                    </div>
+
+                    <div id="testando" class="col-9 mt-2"> <!-- Usado para criar o scrollspy do conteúdo Sobre-->
+
+                        <div data-spy="scroll" data-target="#navertical" data-offset="0" class="scrollspySite">
+
+                            <h2 id="navtitle" class="ml-3 mt-3 modal-title">Sobre nós</h2>
+                            <h2 class="ml-3 mb-4 navtextunder card-title">Somos o futuro da nação</h2>
+
+                            <h3 id="Item1" class="my-3 ml-3 navtitle">Quem somos?</h3>
+                            <p class="ml-3 mb-4 navtext">Somos um grupo de estudantes disposta a ensinar como mudar o mundo</p>
+
+                            <h5 id="Item1-1" class="my-3 ml-3 navsubtitle">Nosso objetivo?</h5>
+                            <p class="ml-3 mb-4 navtext">Ensinar as crianças maneiras de ser pessoas melhores</p>
+                            <ul>
+                                <li>1 – Coleta seletiva e reciclagem</li>
+                                <li>2 – Cultivo de plantio;</li>
+                                <li>3 – Economia de água;</li>
+                                <li>4 – Economia de energia;</li>
+                            </ul>
+
+                            <h5 id="Item1-2" class="my-3 ml-3 navsubtitle">Por que dessa escolha?</h5>
+                            <p class="ml-3 mb-4 navtext">Escolhermos um ponto seria perfeito para sociedade</p>
+
+                            <h3 id="Item2" class="my-3 ml-3 navtitle">Participantes</h3>
+                            <ul>
+                                <li>Renan Fasano</li>
+                                <p>Programador e amante de rock, jogos on-line, ama a técnologia e cuida muito bem do meio ambiente aproveitando sua paixão de forma sustentável. Fluente em inglês e iniciante em francês.</p>
+                                <li>Daniele Lemos</li>
+                                <li>Juliana Evangelista</li>
+                                <li>Vinicius Mattos</li>
+                            </ul>
+                            <p class="ml-3 mb-4 navtext">Nossos participantes trabalham bastante para levar o conhecimento e conscientização para
+                            os jovens, fazendo com que o possam crescer respeitando a natureza e cuidando da mesma para que nenhuma pessoa cresça sendo
+                            irresponsável com o meio-ambiente onde vivemos e que temos de ser gratos!</p>
+
+                            <h3 id="Item3" class="my-3 ml-3 navtitle">Quer se unir?</h3>
+                            <p class="ml-3">Quer participar da nossa iniciativa e ajudar o meio ambiente passando conhecimento para as crianças 
+                            e jovens? Clique no botão "Junte-se" no menu e saiba como!</p>
+                        
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row mb-5">
+
+                    <div id="inline" class="col-sm-12"> <!-- Cria o espaçamento dos cards-->
+
+                        <div class="card">
+                            
+                            <img class="card-img-top" src="Imagens/Renan F.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Renan Fasano</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Streamer</h6>
+                                <p class="card-text">Cozinheiro, player de jogos on-line e programador.</p>
+                                <a href="https://github.com/Ifritosss" class="card-link" target="_blank">GitHub</a>
+                            </div>
+
+                        </div>
+
+                        <div class="card corpodocard">
+                            
+                            <img class="card-img-top" src="Imagens/Dani L.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Daniele Lemos</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Técnica em Telecom</h6>
+                                <p class="card-text">Amante de filmes de terror, rap e rock das antigas!</p>
+                                <a href="https://github.com/DanieleMelloAndrade" class="card-link" target="_blank">GitHub</a>
+                            </div>
+
+                        </div>
+                        <div class="card corpodocard border-0 shadow-sm">
+                            
+                            <img class="card-img-top" src="Imagens/Juliana E.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Juliana Evangelista</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Técnica em Telecom</h6>
+                                <p class="card-text">Apaixonada por aviação desde pequenininha!</p>
+                                <a href="https://github.com/evangelistajuh" class="card-link" target="_blank">GitHub</a>
+                            </div>
+
+                        </div>
+                        <div class="card corpodocard">
+                            
+                            <img class="card-img-top" src="Imagens/Vinicius M.png">
+                            <div class="card-body">
+                                <h4 class="card-title">Vinícius Mattos</h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Economista</h6>
+                                <p class="card-text">Formado em Administração e amante de uma boa bebida.</p>
+                                <a href="https://github.com/VinnyMattos" class="card-link" target="_blank">GitHub</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer"> <!-- footer contendo o link e logo do grupo-->
+            <a href="#logo">
+                <img src="Imagens/Logo4.png" height="100" width="260" id="logofooter" title="Página Principal" alt="HS_Logo_Footer">
+            </a>            
+            <br>
+            <a href="Principal.html">Home</a>
+            <a href="About.html">Sobre</a>
+            <a href="HelpUs.html">Ajude-nos</a>
+            <a href="mailto:herancasus@outlook.com">Contato</a>
+        </div>
+    </footer>
+    <script src="Bootstrap - jquary - popper/bootstrap.js"></script>
+    <script src="Bootstrap - jquary - popper/popper.js"></script>
+    <script src="Bootstrap - jquary - popper/jquery.js"></script> <!-- Scripts usados. /-->
+</body>
+</html>
